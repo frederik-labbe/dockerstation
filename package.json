@@ -1,0 +1,14 @@
+{
+  "name": "dockerstation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connection/server.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.23"
+  }
+}
