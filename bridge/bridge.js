@@ -19,8 +19,6 @@ function sendEvent(type, value, descr) {
         type: type,
         value: value
     };
-    
-    console.log(msg);
 }
 
 Bridge.prototype.sendEvent = sendEvent;
