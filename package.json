@@ -2,13 +2,15 @@
   "name": "dockerstation",
   "version": "1.0.0",
   "description": "",
-  "main": "connection/server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "python -m SimpleHTTPServer 8080"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
     "websocket": "^1.0.23"
   }
 }
