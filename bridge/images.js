@@ -1,4 +1,4 @@
-var Bridge = require('./bridge');
+const Bridge = require('./bridge');
 
 var Images = {};
 

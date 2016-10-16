@@ -1,8 +1,8 @@
-var WebSocketServer = require('websocket').server;
-var http = require('http');
+const WebSocketServer = require('websocket').server;
+const http = require('http');
 
-var DockerImages = require('../bridge/images');
-var DockerContainers = require('../bridge/containers');
+const DockerImages = require('../bridge/images');
+const DockerContainers = require('../bridge/containers');
 
 var BridgeServer = function(port) {
     this.port = port;
