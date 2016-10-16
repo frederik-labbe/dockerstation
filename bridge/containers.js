@@ -16,7 +16,7 @@ var d = {
 };
 
 Containers.queryList = function(connection) {
-    new Bridge(connection).queryInfo(d.cmd, '-a', d.columns);
+    new Bridge(connection).queryInfo(d.cmd, ['-a'], d.columns);
 };
 
 module.exports = Containers;

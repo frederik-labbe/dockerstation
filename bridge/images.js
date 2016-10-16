@@ -14,7 +14,7 @@ var d = {
 };
 
 Images.queryList = function(connection) {
-    new Bridge(connection).queryInfo(d.cmd, '-a', d.columns);
+    new Bridge(connection).queryInfo(d.cmd, [], d.columns);
 }
 
 module.exports = Images;
