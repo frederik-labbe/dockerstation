@@ -64,7 +64,6 @@ function startBridge(domain, port) {
                                 var containerLi = _c('li');
                                 var containerLink = _c('a');
                                 containerLink.href = '/console/' + imagesContainersId[imageElement.innerHTML][containerIndex];
-                                containerLink.target = '_blank';
                                 containerLink.innerHTML = containerName;
                                 containerLi.appendChild(containerLink);
                                 containerList.appendChild(containerLi);

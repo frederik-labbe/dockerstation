@@ -4,14 +4,9 @@ block title
     title Docker Station
     
 block content
-    h2 Local images:
-    div(id="image_list")
-    div(class="new-image")
-        p Add:
-            input(id="new-image")
-            button(id="btn-new-image") pull
-        div(class="progress_bar")
-            div(class="progress")
+    div(class='main-wrapper')
+        h2 Local images:
+        div(id='image_list')
             
 block after
     script startBridge('#{ip}', #{port})

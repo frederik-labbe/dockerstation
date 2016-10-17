@@ -1,8 +1,10 @@
+html, body { margin:0; padding:0; }
+
+.main-wrapper { margin-left: 25px; }
 #image_list li { font-weight:bold; list-style-type:square; font-size:24px; margin-bottom:10px; }
 #image_list li li { font-family:Courier New; font-weight:normal; list-style-type:circle; text-indent:25px; font-size:18px; margin:0; }
 #image_list li li a { color:#000000; text-decoration:none; }
 #image_list li li a:hover { text-decoration:underline; }
 
-.new-image { display:none; }
-.progress_bar { width:200px; height:25px; border:solid 1px #000; }
-.progress { position:relative; top:0; left:0; background-color:#55dd99; width:0%; height:100%; }
+.console-container { background-color:#000000; margin:0; padding:0; display:flex; align-items:center; justify-content:center; }
+.console { background-color:#000000; color:#dddddd; width:95%; height:100vh; word-wrap:break-word; margin:0; padding:0; border:none; resize:none; outline:none; display:block; }
