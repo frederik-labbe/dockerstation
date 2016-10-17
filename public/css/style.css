@@ -7,4 +7,4 @@ html, body { margin:0; padding:0; }
 #image_list li li a:hover { text-decoration:underline; }
 
 .console-container { background-color:#000000; margin:0; padding:0; display:flex; align-items:center; justify-content:center; }
-.console { background-color:#000000; color:#dddddd; width:95%; height:100vh; word-wrap:break-word; margin:0; padding:0; border:none; resize:none; outline:none; display:block; }
+#console { background-color:#000000; color:#dddddd; width:95%; height:100vh; word-wrap:break-word; margin:0; padding:0; border:none; resize:none; outline:none; display:block; }

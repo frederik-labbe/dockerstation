@@ -1,11 +1,11 @@
 function startBridge(domain, port) {
-    var exampleSocket = new WebSocket('ws://' + domain + ':' + port, 'echo-protocol');
+    var comm_socket = new WebSocket('ws://' + domain + ':' + port, 'echo-protocol');
 
-    exampleSocket.onopen = function (event) {
+    comm_socket.onopen = function (event) {
         console.log('Connected to Docker!');
     };
 
-    exampleSocket.onmessage = function (event) {
+    comm_socket.onmessage = function (event) {
         var message = JSON.parse(event.data);
 
         switch (message.type) {
@@ -76,7 +76,7 @@ function startBridge(domain, port) {
         }
     }
 
-    exampleSocket.onerror = function (event) {
+    comm_socket.onerror = function (event) {
       console.log('Error while trying to connect to Docker. Is the bridge running ?');
     };
 }

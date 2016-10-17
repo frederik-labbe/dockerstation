@@ -5,4 +5,8 @@ block title
     
 block content
     div(class='console-container')
-        textarea(class='console', spellcheck='false') dockerstation@#{dockerId}:  
+        textarea(id='console', spellcheck='false')  
+
+block after
+    script(src='/js/console.js')
+    script initConsole('#{dockerId}')
