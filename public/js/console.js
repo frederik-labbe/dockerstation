@@ -4,6 +4,7 @@ var Console = {
 
 function initConsole(dockerId) {
     var consoleElement = _e('console');
+    consoleElement.focus();
     
     displayPrompt(consoleElement, dockerId);
     
